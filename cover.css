@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1511920170033-f8396924c348");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(43, 29, 14, 0.75); /* coffee overlay */
+}
+
+.content {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f7efe5;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 64px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #cfa670;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  padding: 14px 32px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+
+.menu-btn {
+  background: #b11226;
+  color: white;
+}
+
+.login-btn {
+  background: transparent;
+  border: 2px solid #cfa670;
+  color: #cfa670;
+}
+
+.menu-btn:hover {
+  background: #8e0e1f;
+}
+
+.login-btn:hover {
+  background: #cfa670;
+  color: #2b1d0e;
+}

@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg,#2b1d0e,#4b2e14);
+  color: #fff;
+  padding: 30px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+.cart, .summary {
+  background: #fff;
+  color: #000;
+  padding: 25px;
+  border-radius: 16px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.qty button {
+  background: #b11226;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+.summary button {
+  width: 100%;
+  padding: 12px;
+  background: #b11226;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
